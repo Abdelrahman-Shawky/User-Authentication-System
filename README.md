@@ -1,5 +1,5 @@
 # User-Authentication-System
-A web application for user authentication, built with Node.js, and Express on the backend, and EJS templating engine on the frontend. The application uses JSON Web Tokens (JWT) to maintain user sessions and verify users.
+A web application for user authentication, built with Node.js, Express, and MongoDB with Mongoose ODM on the backend, and EJS templating engine on the frontend. The application uses JSON Web Tokens (JWT) to maintain user sessions and verify users.
 
 ## Features
 - User registration and login with secure password hashing and salt generation
@@ -11,6 +11,8 @@ A web application for user authentication, built with Node.js, and Express on th
 ## Technologies Used
 - Node.js for the backend environment
 - Express for the web framework and middleware
+- MongoDB for the database
+- Mongoose ODM for data modeling and querying
 - cookie-parser for parsing cookies in requests
 - EJS templating engine for rendering dynamic views
 - JSON Web Tokens (JWT) for user authentication and session management
